@@ -10,8 +10,8 @@ The primary goal was to train a high-accuracy model and deploy it in two real-wo
 This application allows users to interactively test the trained CNN model by drawing a single digit.
 
 #### Functionality:
-Input: Users draw a single digit (0-9) on a drawing canvas.
-Model: A Keras Sequential CNN model predicts the digit instantly.
+- Input: Users draw a single digit (0-9) on a drawing canvas.
+- Model: A Keras Sequential CNN model predicts the digit instantly.
 
 #### Purpose: Provides a visual and engaging way to verify the model's performance on live, never-before-seen input.
 
@@ -19,18 +19,18 @@ Model: A Keras Sequential CNN model predicts the digit instantly.
 This application takes the digit recognition concept further by integrating arithmetic operations with the same CNN Keras model.
 
 #### Functionality:
-Input: Two separate drawing canvases allow users to input two distinct single digits.
-Prediction: The model predicts both digits.  
-Visualization: A bar chart displays the predicted probability values for each digit.
-Arithmetic: Users select an operation (e.g., addition, subtraction), and the application calculates and displays the final result of the operation on the predicted numbers.
+- Input: Two separate drawing canvases allow users to input two distinct single digits.
+- Prediction: The model predicts both digits.  
+- Visualization: A bar chart displays the predicted probability values for each digit.
+- Arithmetic: Users select an operation (e.g., addition, subtraction), and the application calculates and displays the final result of the operation on the predicted numbers.
 
 #### Challenge: This tested the ability to integrate two model inference steps into a single, cohesive application flow.
 
 ## Technical Details
-Model Architecture: Convolutional Neural Network (CNN) - Keras Sequential Model.
-Model Accuracy: Achieved a high testing accuracy of ~98-99%.
+- Model Architecture: Convolutional Neural Network (CNN) - Keras Sequential Model.
+- Model Accuracy: Achieved a high testing accuracy of ~98-99%.
 
 ### Frameworks:
-Frontend/Deployment: Streamlit (for interactive web interface).
-Deep Learning Library: Keras / TensorFlow.
-Language: Python.
+- Frontend/Deployment: Streamlit (for interactive web interface).
+- Deep Learning Library: Keras / TensorFlow.
+- Language: Python.
